@@ -2,12 +2,9 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../../assets/sLogo.png";
-// import Button from "react-bootstrap/Button";
+// import logo from "../../assets/sLogo.png";
 import { Link } from "react-router-dom";
-// import { CgGitFork } from "react-icons/cg";
 import {
-  // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineContacts
@@ -102,17 +99,6 @@ function NavBar() {
                 <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
-
-            {/* <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/19sajib/portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
