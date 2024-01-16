@@ -4,10 +4,10 @@ import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter
+  // AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+// import { SiLeetcode } from "react-icons/si";
 
 
 
@@ -99,7 +99,7 @@ const About = () => {
                   </li> */}
                   <li className="social-icons">
                     <a
-                      href="www.linkedin.com/in/vipul-chodhari"
+                      href="https://www.linkedin.com/in/vipul-chodhari"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
