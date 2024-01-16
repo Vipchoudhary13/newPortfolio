@@ -7,7 +7,8 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 
-const resumeLink = 'resume/Vipul_Full_Stack_Developer_Resume.pdf'
+// const resumeLink = 'resume/Vipul_Full_Stack_Developer_Resume.pdf'
+const resumeLink = process.env.PUBLIC_URL + '/resume/Vipul_Full_Stack_Developer_Resume.pdf';
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
@@ -29,20 +30,21 @@ const Resume = () => {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download Resume
+            &nbsp;Show Resume
           </Button>
-        </Row>
+        </Row><br/>
 
-        <Row className="resume">
+        {/* <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
-        </Row>
+        </Row> */}
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={resumeLink}
+            download="vipul-chodhari.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
