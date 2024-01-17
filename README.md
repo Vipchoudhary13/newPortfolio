@@ -1,4 +1,4 @@
-# JS Portfolio Website
+# 👋👋👋 Vipul Portfolio
 
 [🔗Live Demo🔗](https://vipul-alpha.vercel.app/)
 
