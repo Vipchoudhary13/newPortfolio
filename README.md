@@ -6,19 +6,6 @@
   <img src="public/Images/PortfolioHome.png" />
 </div>
 
-<table align="center">
-    <thead align="center">
-        <tr border: 1px;>
-            <td><b>Project Stats</td>
-        </tr>
-     </thead>
-    <tbody>
-         <tr>
-            <td><a href="https://github.com/Vipchoudhary13/newPortfolio?tab=readme-ov-file"</a>Project</td>
-        </tr>
-    </tbody>
-</table>
-
 <br/>
 
 ## Features
