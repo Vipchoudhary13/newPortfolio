@@ -13,10 +13,9 @@ const Contact = () => {
     reply_to: "",
     message: "",
   });
-  console.log("formData", formData);
+  // console.log("formData", formData);
 
   const handleChange = (e) => {
-    console.log("target value", e.target);
     setFormData({ ...formData, [e.target.name]: e.target.value });
     setDone(false);
     setNotDone(false);
