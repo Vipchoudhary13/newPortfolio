@@ -1,8 +1,7 @@
 # JS Portfolio Website
 
-[🔗Live Demo🔗](https://sajib.vercel.app/)
+[🔗Live Demo🔗](https://vipul-alpha.vercel.app/)
 
-<!-- ![Protfolio Website](https://i.ibb.co/N7xKjdQ/Screenshot-17.png) -->
 <div>
   <img src="public/Images/PortfolioHome.png" />
 </div>
@@ -11,21 +10,11 @@
     <thead align="center">
         <tr border: 1px;>
             <td><b>Project Stats</td>
-            <td><b>🌟 Stars</b></td>
-            <td><b>🍴 Forks</b></td>
-            <td><b>🐛 Issues</b></td>
-            <td><b>🔔 Open PRs</b></td>
-            <td><b>🔕 Close PRs</b></td>
         </tr>
      </thead>
     <tbody>
          <tr>
             <td><a href="https://github.com/Vipchoudhary13/newPortfolio?tab=readme-ov-file"</a>Project</td>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/19sajib/portfolio?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/19sajib/portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/19sajib/portfolio?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/19sajib/portfolio?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/19sajib/portfolio?style=flat&color=critical&logo=github"/></td>
         </tr>
     </tbody>
 </table>
