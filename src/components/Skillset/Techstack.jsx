@@ -16,6 +16,8 @@ import {
   SiHtml5,
   SiTypescript
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Techstack = () => {
   return (
@@ -36,6 +38,9 @@ const Techstack = () => {
         <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <TbBrandNextjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -52,6 +57,9 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
       </Col>
     </Row>
   );
